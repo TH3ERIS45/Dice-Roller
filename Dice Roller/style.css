@@ -1,0 +1,75 @@
+/* Container Style */
+#container {
+    font-family: 'Arial', Helvetica, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+/* Button Style */
+button {
+    font-size: 1.5rem;
+    padding: 12px 20px;
+    border-radius: 12px;
+    border: none;
+    background-color: rgb(108, 108, 196);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover effect for Button */
+button:hover {
+    background-color: rgb(71, 71, 177);
+    transform: translateY(-2px);
+}
+
+/* Active effect for Button */
+button:active {
+    background-color: rgb(55, 55, 116);
+    transform: translateY(2px);
+}
+
+/* Input Field Style */
+input {
+    font-size: 2rem;
+    width: 180px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    margin: 10px 0;
+    transition: border 0.3s;
+}
+
+/* Input focus effect */
+input:focus {
+    border-color: rgb(108, 108, 196);
+    outline: none;
+}
+
+/* Dice Result Section */
+#diceResult {
+    margin: 25px 0;
+    font-size: 1.5rem;
+    color: rgb(108, 108, 196);
+}
+
+/* Dice Images Section */
+#diceImages img {
+    width: 150px;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+/* Hover effect for Dice Images */
+#diceImages img:hover {
+    transform: scale(1.1);
+}
